@@ -1,0 +1,26 @@
+.par1 {
+    font-family: Arial Black, sans-serif;
+    font-size: 24px;
+}
+.par2 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+    text-align-last: justify;
+}
+.par3 {
+    text-indent: 30px;
+}
+.par4 {
+    font-family: Verdana Black, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+}
+.par5 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2.5em;
+    text-align: center;
+}
+.par6 {
+    font-family: Comic Sans MS;
+    font-size: 1.3em;
+    font-style: italic;
+}

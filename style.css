@@ -1,0 +1,50 @@
+body {
+    background: url(https://7themes.su/_ph/56/207501420.jpg) no-repeat center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1.main_header {
+    font-style: italic;
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+    width: 400px;
+    height: 200px;
+    padding: 20px;
+    border: 2px solid green;
+
+}
+
+h2 {
+    color: rgb(255, 47, 234);
+    text-decoration: underline;
+}
+
+p {
+    text-indent: 30px;
+
+}
+ul {
+
+    list-style: circle;
+    list-style-image: url();
+}
+a:link {
+    color: blue;
+}
+a:hover {
+    color: red;
+    text-decoration: none;
+}
+a:visited {
+    color: gray;
+}
+a:active {
+    color: aqua;
+}
+.par1 {
+    font-size: 24px;
+}
+#unic_p {
+    color:blueviolet
+}

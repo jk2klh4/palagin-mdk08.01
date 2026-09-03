@@ -1,0 +1,67 @@
+body {
+    background: url(https://7themes.su/_ph/56/207501420.jpg) no-repeat center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:blue
+}
+h1 {
+    color:rgba(79, 232, 19, 0.661);
+    text-align: center;
+    text-decoration: underline;
+}
+h2 {
+    color:rgb(217, 14, 14);
+    font-style: italic;
+}
+h3 {
+    font-size: 20px;
+    color: lime;
+}
+p {
+    text-align-last: justify;
+    line-height: 1.5;
+    text-indent: 40px;
+}
+ul {
+    list-style: square;
+    background-color: aqua;
+    padding: 20px;
+}
+ol {
+    list-style: upper-roman;
+    background-color: aquamarine;
+}
+li {
+    color: rgb(163, 42, 42);
+}
+ul {
+    color: aliceblue;
+}
+.ul2 {
+    list-style-type: circle;
+    background-color: #ffffff;  
+}
+a{
+    color: rgb(127, 245, 9);
+    text-decoration: none;
+    font-weight: bold;
+}
+a:hover {
+    background-color: #0e7aed;
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #672dd5;
+}
+
+.special-link {
+    background-color: #28a745;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.special-link:hover {
+    background-color: #218838;
+    text-decoration: none;
+}
