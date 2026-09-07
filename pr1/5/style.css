@@ -22,7 +22,7 @@
 .img-fix {
     position: absolute;
     right: 20px;
-    top: 0;
+    top: 50%;
 }
 .img-fix2 {
     position: fixed;
