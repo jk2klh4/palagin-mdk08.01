@@ -1,0 +1,61 @@
+.feedback-form {
+    max-width: 750px;
+    margin: auto;
+    padding: 20px;
+    position: relative;
+}
+
+.form-close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.form-header {
+    text-align: center;
+}
+
+
+.form-item {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px; 
+}
+
+
+/* .form-footer {
+    margin-top: 30px;
+}
+
+.subscribe-actions {
+    display: grid;
+    grid-template-columns: 1fr auto; 
+    gap: 20px;
+    margin-bottom: 15px;
+}
+
+.subscribe-actions input {
+    width: 100%;
+    padding: 12px 15px;
+    box-sizing: border-box;
+}
+
+.submit-btn {
+    padding: 12px 25px;
+}
+
+.form-footer p {
+    font-size: 12px;
+    margin-top: 15px;
+} */
+
+
+@media (max-width: 600px) {
+    .form-item {
+        grid-template-columns: 1fr;
+    }
+    
+    .subscribe-actions {
+        grid-template-columns: 1fr;
+    }
+}

@@ -1,0 +1,44 @@
+.feedback-form {
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+}
+
+
+.form-grid {
+    display: grid;
+    grid-template-columns: auto 1fr; 
+    gap: 20px; 
+    align-items: center;
+}
+
+.form-grid input{
+    width: 100%;
+}
+.form-grid textarea {
+    width: 100%;
+}
+.form-close{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+.form-header{
+    text-align: center;
+    display: block;
+    margin: 20px auto; 
+}
+.submit-btn {
+    text-align: center;
+    display: block;
+    margin: 20px auto; 
+}
+
+@media (max-width: 500px) {
+  form.grid {
+    grid-template-columns: 1fr;
+  }
+  label {
+    margin-bottom: -0.75rem;
+  }
+}
