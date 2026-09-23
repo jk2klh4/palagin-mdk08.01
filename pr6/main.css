@@ -1,0 +1,19 @@
+.nav-menu-list{
+    display: flex;
+    list-style: none;    
+    background-color: antiquewhite;
+}
+
+.nav-menu-item a{
+    display: block;
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0);
+    padding: 15px;
+    transition-property: background-color;
+    transition-duration: 0.2s;
+}
+
+.nav-menu-item a:hover{
+    color: rgb(232, 45, 45);
+    background-color: rgb(94, 93, 93);
+}
