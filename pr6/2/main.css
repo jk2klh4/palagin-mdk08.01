@@ -1,0 +1,78 @@
+.box-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 600px; 
+}
+.box-container p {
+    flex: 1;
+    border: 2px solid #090909;
+    padding: 30px;
+}
+.button-left{
+    border: none;
+    padding: 0;
+    width: 20px;
+    height: 20px;
+    border-top: 3px solid #090909;
+    border-left: 3px solid #010101;
+    transform: rotate(-45deg);
+    background: none;
+}
+.button-right{
+    border: none;
+    padding: 0;
+    width: 20px;
+    height: 20px;
+    border-top: 3px solid #090909;
+    border-left: 3px solid #010101;
+    transform: rotate(135deg);
+    background: none;
+}
+.button-left:hover{
+    border-color: #f82c2c;
+}
+.button-right:hover{
+    border-color: #f82c2c;
+}
+
+
+.polaroid-container{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;    
+    gap: 10px;
+    padding: 50px;
+}
+
+.card-left {
+    background-color: #ffffff; 
+    padding: 15px;
+    border: 1px solid #060606;
+    transform: rotate(-6deg);   
+    position: relative;
+    z-index: 2;                
+    margin-right: 50px;        
+}
+
+.card-right {
+    background-color: #ffffff; 
+    padding: 15px;
+    border: 1px solid #060606;
+    transform: rotate(4deg);   
+    position: relative;
+    z-index: 1;                
+    margin-left: 50px;         
+    margin-top: -40px;         
+}
+.animation-button {
+    padding: 15px;
+    background: #090909;
+    color: #ffffff;
+    transition: 0.3s; 
+}
+
+.animation-button:hover {
+    background: #f82c2c;
+    transform: scale(1.1); 
+}
