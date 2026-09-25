@@ -1,0 +1,20 @@
+.run-rotate{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    background-color: aqua;
+    animation: run 1s infinite ease-in;
+}
+@keyframes run{
+    from{
+        left: 0;
+    }
+    50%{
+        left: 300px;
+        transform: rotate(45deg);
+        background-color: azure;
+    }
+    to{
+        left: 0;
+    }
+}
