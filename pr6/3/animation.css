@@ -1,0 +1,29 @@
+.clock {
+    width: 200px;
+    height: 200px;
+    border: 4px solid #befc03;
+    border-radius: 50%;
+    position: relative;
+    background-color: #0cda24;
+}
+
+.hand {
+    position: absolute;
+    width: 10px;
+    height: 80px;
+    background-color: #ff3366;
+    bottom: 50%;   
+    left: 50%;     
+    transform: translateX(-50%);
+    transform-origin: bottom center; 
+    animation: spin 12s steps(12) infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: translateX(-50%) rotate(0deg);
+    }
+    100% {
+        transform: translateX(-50%) rotate(360deg);
+    }
+}

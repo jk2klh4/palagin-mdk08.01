@@ -1,0 +1,14 @@
+.par{
+    color: aqua;
+}
+
+.par::before{
+    content: ' >> ';
+    font-size: 20pt;
+    color: chocolate;
+}
+.par::after{
+    content: ' >> ';
+    font-size: 20pt;
+    color: chocolate;
+}
