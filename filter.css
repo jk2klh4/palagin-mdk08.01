@@ -1,0 +1,7 @@
+.show{
+    width: 600px;
+    height: 400px;
+    background-image: url(https://fototips.ru/wp-content/uploads/2012/03/00_Autumn_Photo.jpg);
+    background-size: cover;
+    filter: grayscale(20%) sepia(100%);
+}
