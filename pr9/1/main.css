@@ -1,0 +1,39 @@
+.topmenu {
+    display: flex;
+    list-style: none;
+}
+
+.topmenu > li {
+    position: relative;
+}
+
+.topmenu a {
+    text-decoration: none;
+    padding: 10px 15px; 
+    display: block;
+}
+.topmenu > li > a:hover {
+    color: #1877c0;
+}
+
+.submenu {
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    list-style: none;
+    background: #1877c0;
+    transition: opacity 2.67s ease;
+}
+
+.submenu a {
+    color: rgb(235, 233, 233);
+}
+
+.submenu li a:hover {
+    background-color: #145d96;
+    color: white;
+}
+.topmenu > li:hover .submenu {
+    opacity: 1;
+    visibility: visible;
+}

@@ -1,0 +1,6 @@
+1.Задание можно посмотреть по ссылке
+https://developer.mozilla.org/ru/docs/Learn/CSS/CSS_layout/Fundamental_Layout_Comprehension
+2. Также смотрите англ версию -в ней есть картинки с примерами
+https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Fundamental_Layout_Comprehension
+2. Добавить адаптацию. Aside с картинками уходит вниз на маленьких экранах.
+3 Одинаковые отступы от краев на маленьких экранах.

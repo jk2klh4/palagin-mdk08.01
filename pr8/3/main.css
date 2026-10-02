@@ -1,0 +1,147 @@
+.shadow1{
+    width: 200px;
+    height: 50px;
+    background-color: greenyellow;
+    box-shadow: 3px 3px; color: blue;
+}
+.shadow2{
+    width: 200px;
+    height: 50px;
+    background-color: greenyellow;
+    box-shadow: 2px 2px darkgreen;
+}
+.shadow3{
+    width: 200px;
+    height: 50px;
+    background-color: greenyellow;
+    box-shadow: 2px 2px;
+}
+.shadow4{
+    width: 200px;
+    height: 50px;
+    background-color: greenyellow;
+    box-shadow: 3px 3px 3px darkgrey;
+}
+.shadow5{
+    width: 200px;
+    height: 50px;
+    background-color: greenyellow;
+    box-shadow:0 0 9px black;
+
+}
+.shadow7{
+    width: 200px;
+    height: 50px;
+    background-color: greenyellow;
+    text-shadow:10px 10px; width:300px;
+
+
+}
+.shadow8{
+    width: 200px;
+    height: 50px;
+    background-color: greenyellow;
+    text-shadow:-5px -5px; width:300px; color:blue;
+
+
+}
+.shadow9{
+    width: 200px;
+    height: 50px;
+    background-color: greenyellow;
+    text-shadow:-1px -1px white; color:blue; background:#333;
+
+
+}
+.shadow10{
+    width: 200px;
+    height: 50px;
+    background-color: greenyellow;
+    text-shadow:1px 1px rgba(255,255,255, 0.5); color:blue; background:#eee;
+}
+.shadow11{
+    width: 200px;
+    height: 50px;
+    background-color: greenyellow;
+    text-shadow:5px 5px 3px darkred; color:red;
+}
+.shadow12{
+    width: 200px;
+    height: 50px;
+    background-color: greenyellow;
+    text-shadow:4px -4px 10px red; color:azure;  background:#333;
+}
+.blured-shadow {
+    text-shadow:0px 0px 4px ;
+}
+.shadow13{
+    width: 200px;
+    height: 50px;
+    background-color: greenyellow;
+    color:red;
+}
+.shadow14{
+    width: 200px;
+    height: 50px;
+    background-color: greenyellow;
+    color:lightgray; background:#333;
+}
+.shadow15 {
+    font-size: 24px;
+    font-weight: bold;
+    color: green;
+    text-shadow: 1px 1px 0px lightgreen,  2px 2px 0px lightgreen
+}
+
+.shadow16{
+    font-size: 24px;
+    font-weight: 900;
+    color: green;
+    text-shadow: 8px 8px 1px darkgreen;
+}
+
+.shadow17{
+    font-size: 24px;
+    font-weight: bold;
+    color: green;
+    background: #333;
+    padding: 5px;
+    -webkit-text-stroke: 2px rgba(128, 255, 0, 0.75);
+}
+.shadow18{
+  color: magenta;
+  background: #bebebe;
+  text-shadow: 
+    1px 1px 0px white, -1px -1px 0px white,
+    1px -1px 0px white, -1px 1px 0px white,
+    2px 2px 2px gray, -2px -2px 2px gray;
+}
+
+.shadow19{
+  color: magenta;
+  background: #888;
+  text-shadow: 
+    3px 3px 4px rgba(255,255,255,0.6), 
+    6px -6px 4px rgba(255,255,255,0.4), 
+    -3px -3px 4px rgba(255,0,255,0.5);
+}
+
+.shadow20{
+  color: white;
+  background: #333;
+  text-shadow: 
+    0 0 2px magenta, 
+    0 0 6px magenta, 
+    0 0 10px magenta;
+}
+
+.shadow22{
+  color: #eee;
+  background: #000;
+  text-shadow: 
+    0 0 2px #fff, 
+    0 -2px 4px #ff3, 
+    2px -4px 6px #fd3, 
+    -2px -6px 11px #f80, 
+    2px -8px 18px #f20;
+}
