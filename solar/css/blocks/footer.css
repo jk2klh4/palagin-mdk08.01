@@ -1,0 +1,23 @@
+.footer{
+    background: url(../../img/replacebg.png) center no-repeat;
+    background-size: cover;
+    margin-bottom: 120px;
+    position: relative;
+    
+}
+.footer__text{
+    font-size: 14px;
+    color: #ffffff;
+}
+.footer__link{
+    font-size: 14px;
+    color: #ffffff;
+}
+.footer__subtitle{
+    font-size: 14px;
+    color: #ffffff;
+}
+.footer__address{
+    font-size: 14px;
+    color: #ffffff;
+}

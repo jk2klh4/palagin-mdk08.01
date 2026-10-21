@@ -4,7 +4,7 @@
 .contact-us__content {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    gap: 20px;
+    column-gap: 20px;
 }
 
 .contact-us__title, 
@@ -17,19 +17,20 @@
 .contact-us__title {
     font-family: Roboto;
     font-size: 36px;
-    margin-bottom: 60px;
 }
 
 .contact-us__subtitle { 
     grid-column-start: 1;
     grid-column-end: 6;
     width: 100%;
+    margin-top: 80px;
 }
 .contact-us__address{ 
+    color: rgb(115, 115, 115);
     grid-column-start: 1;
     grid-column-end: 6;
     width: 100%;
-    gap: 20px;
+    line-height: 36px;
 }
 .contact-us__map { 
     grid-column-start: 1;
@@ -44,6 +45,7 @@
     
     grid-row-start: 2;
     grid-row-end: 5;
+    margin-top: 100px;
 }
 
 
