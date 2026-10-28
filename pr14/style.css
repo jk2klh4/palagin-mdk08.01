@@ -1,3 +1,15 @@
+.button-5, .button-4, .button-3, .button-2, .button-1 {
+  width: 150px;
+  height: 50px;
+  background-color: #4190e4;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .button-1 {
   background-color: red;
 }
@@ -18,6 +30,25 @@
   background-color: brown;
 }
 
-/*# sourceMappingURL=style.scss.map */
+.item-1 {
+  width: 150px;
+  height: 100px;
+  background-image: url(img/1.png);
+  background-size: cover;
+}
+
+.item-2 {
+  width: 150px;
+  height: 100px;
+  background-image: url(img/2.png);
+  background-size: cover;
+}
+
+.item-3 {
+  width: 150px;
+  height: 100px;
+  background-image: url(img/3.png);
+  background-size: cover;
+}
 
 /*# sourceMappingURL=style.css.map */
