@@ -42,3 +42,38 @@ let goods = [
         promo: ''
     }
 ];
+
+let list = document.querySelector('.cards');
+
+for (let i = 0; i < goods.length; i++) {
+    let good = goods[i];
+
+    let card = document.createElement('li');
+    card.classList.add('card');
+
+    let picture = document.createElement('img');
+    picture.src = good.img;
+
+    let name = document.createElement('h2');
+    name.textContent = good.name;
+
+    let description = document.createElement('p');
+    description.textContent = good.description;
+
+    let price = document.createElement('p');
+    price.textContent = good.price;
+
+    if (good.promo !== '') {
+        let promo = document.createElement('p');
+        promo.textContent = good.promo;
+        card.appendChild(promo);
+    }
+
+
+    card.appendChild(picture);
+    card.appendChild(name);
+    card.appendChild(description);
+    card.appendChild(price);
+    
+    list.appendChild(card);
+}
