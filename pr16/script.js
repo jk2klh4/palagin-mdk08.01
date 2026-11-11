@@ -45,6 +45,10 @@ let goods = [
 
 let list = document.querySelector('.cards');
 
+let modal = document.querySelector('#myModal');
+let modalText = document.querySelector('#modal-text');
+let closeModal = document.querySelector('#closeModal');
+
 for (let i = 0; i < goods.length; i++) {
     let good = goods[i];
 
@@ -63,7 +67,25 @@ for (let i = 0; i < goods.length; i++) {
     let price = document.createElement('p');
     price.textContent = good.price;
 
+    let button = document.createElement('button');
+    button.textContent = 'В избранное';
+
+    let status = document.createElement('p');
+
+    button.addEventListener('click',  function(){
+        status.textContent =  'Товар добавлен в избранное'
+    })
+
+    let orderButton = document.createElement('button');
+    orderButton.textContent = 'Заказать';
+
+    orderButton.addEventListener('click',  function(){
+        modalText.textContent =  'Вы заказали ' + ' ' + good.name + ' ' + 'по цене' + ' ' + good.price + ' ' + 'рублей';
+        modal.style.display = 'flex'
+    })
+
     if (good.promo !== '') {
+        card.classList.add('card__sale');
         let promo = document.createElement('p');
         promo.textContent = good.promo;
         card.appendChild(promo);
@@ -74,6 +96,11 @@ for (let i = 0; i < goods.length; i++) {
     card.appendChild(name);
     card.appendChild(description);
     card.appendChild(price);
+
+    card.appendChild(button);
+    card.appendChild(status);
+    
+    card.appendChild(orderButton);
     
     list.appendChild(card);
 }
