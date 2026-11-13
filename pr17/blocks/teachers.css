@@ -1,0 +1,83 @@
+.teachers {
+    font-family: 'Raleway', sans-serif;
+    padding-top: 130px;
+    padding-bottom: 120px;
+    padding-left: 200px;
+    padding-right: 190px;
+    color: #353A5A;
+}
+
+.teachers__numbers {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    list-style: none;
+    margin-bottom: 100px;
+}
+
+.teachers__number-item {
+    max-width: 240px;
+    text-align: center;
+}
+
+.teachers__number {
+    display: block;
+    font-size: 58px;
+    font-weight: 500;
+    color: #10B582;
+    margin-bottom: 15px;
+}
+
+.teachers__number-text {
+    font-size: 14px;
+}
+
+.teachers__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 60px;
+}
+
+.teachers__title{
+    font-size: 42px;
+    font-weight: 500;
+}
+
+.teachers__text{
+    margin-top: 25px;
+}
+
+.teachers__button {
+    display: inline-block;
+    margin-top: 30px;
+}
+
+.teachers__info {
+    flex: 1 1 auto;
+    max-width: 380px;
+}
+
+.teachers__list {
+    display: grid;
+    grid-template-columns: repeat(3, 167px);
+    gap: 30px 42px;
+    flex-shrink: 0;
+    list-style: none;
+}
+
+.teachers__item {
+    text-align: center;
+}
+
+.teachers__img {
+    display: block;
+    width: 167px;
+    height: 167px;
+    object-fit: cover;
+}
+
+.teachers__caption {
+    margin-top: 14px;
+    font-size: 14px;
+}

@@ -1,0 +1,41 @@
+.format {
+    padding: 120px;
+    background-color: #11b582;
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+}
+
+.format .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+}
+
+.format__picture {
+    width: 500px;
+}
+
+.format__img {
+    width: 500px;
+}
+
+.format__content {
+    max-width: 491px;
+}
+
+.format__title {
+    font-size: 42px;
+    font-weight: 500;
+}
+
+.format__text {
+    margin: 25px 0 35px;
+    font-size: 16px;
+}
+
+.format__button {
+    display: inline-block;
+    width: 200px;
+    text-align: center;
+}

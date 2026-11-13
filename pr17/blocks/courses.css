@@ -1,0 +1,12 @@
+.courses{
+    font-family: 'Raleway', sans-serif;
+}
+
+.courses__title{
+    font-size: 42px;
+    font-weight: 500;
+}
+
+.courses__card{
+    text-decoration: none;
+}

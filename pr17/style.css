@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 @import url('core.css');
+
 @import url('blocks/header.css');
 @import url('blocks/hero.css');
-@import url('blocks/hero-button.css');
+@import url('blocks/teachers.css');
+@import url('blocks/button.css');
+@import url('blocks/format.css');
+@import url('blocks/courses.css');

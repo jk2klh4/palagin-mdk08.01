@@ -1,8 +1,15 @@
 .button{
     text-decoration: none;
-    background-color: #fa9f42;
     color: #fff;
     font-weight: 600;
     padding: 18px 48px;
     border-radius: 0 20px 0 20px;
+}
+
+.button--orange {
+    background-color: #fa9f42;
+}
+
+.button--green {
+    background-color: #11b582;
 }
