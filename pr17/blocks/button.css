@@ -8,11 +8,11 @@
     transition: transform 0.2s ease;
 }
 
-.button--orange {
+.button--primary {
     background-color: #fa9f42;
 }
 
-.button--green {
+.button--secondary {
     background-color: #11b582;
 }
 
