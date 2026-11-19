@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/vue.global.js"></script>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="sample">
+            FN:<input type="text" v-model="firstName"><br>
+            LN:<input type="text" v-model="lastName"><br>
+            <hr>
+            <p>Hello, {{  fullName  }}!</p>
+        </div>
+    </div>
+    <script>
+        let app = Vue.createApp({
+            data(){
+                return{
+                    firstName: '',
+                    lastName: ''
+                }
+            },
+            computed: {
+                fullName(){
+                    return this.firstName + ' '  + this.lastName;
+                }
+            }
+        });
+        let root = app.mount('.sample');
+        console.log(root);
+    </script>
+</body>
+</html>

@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>1</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/vue.global.js"></script>
+</head>
+<body>
+	<div class="wrapper">
+		<div class="sample">
+			<form>
+				<div class="form-group">
+					<label>Email</label>
+					<input type="text" class="form-control">
+				</div>
+				<div class="form-group">
+					<label>Phone</label>
+					<input type="text" class="form-control">
+				</div>
+				<div class="form-group">
+					<label>FN</label>
+					<input type="text" class="form-control">
+				</div>
+				<div class="form-group">
+					<label>LN</label>
+					<input type="text" class="form-control">
+				</div>
+				<div class="form-group">
+					<label>Guests</label>
+					<input type="button" class="btn btn-primary" value="+">
+				</div>
+				<hr>
+				<div class="form-group">
+					Guest 1
+					<input type="text" class="form-control">
+				</div>
+				<hr>
+				<button class="btn btn-success">Send Data</button>
+				<hr>
+			</form>
+			<div>
+				<h2>All done!</h2>
+				<table class="table table-bordered">
+					<tr>
+						<td>Email</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>Guests</td>
+						<td>
+							
+						</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+	</div>
+	<script>
+		let app = Vue.createApp({
+			data: () => ({
+				
+			})
+		}).mount('.sample');
+		
+	</script>
+</body>
+</html>
